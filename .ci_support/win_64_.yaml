@@ -1,5 +1,7 @@
 c_compiler:
-- vs2022
+- vs
+c_compiler_version:
+- '2022'
 c_stdlib:
 - vs
 cgo_compiler:
@@ -9,9 +11,11 @@ channel_sources:
 channel_targets:
 - conda-forge main
 cxx_compiler:
-- vs2022
+- vs
+cxx_compiler_version:
+- '2022'
 libpq:
-- '18'
+- '19'
 libsqlite:
 - '3'
 m2w64_c_compiler:
